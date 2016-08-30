@@ -23,7 +23,7 @@ The method is generic, but as XRY is the only program which I am aware of which 
 Do a physical extraction of the phone in XRY. Open the "*.xry" file in XACT(www.msab.com). Right click "Data", choose "Export-->Data..." and choose the filename "binary.dd", put the "binary.dd" file in the same folder you find this "README.md" file.
 
 - ServiceNumbers.txt -
-Open the "*.xry" file in XACT(www.msab.com). Open "Volumes-->Volume-->NVRAM-->NVD_DATA-->MPA3_001". Here you find all SMS's stored on the phone. Right click a SMS, choose "View-->Service Center-->Linked Data", copy the Hexadecimal data to a new line in "ServiceNumbers.txt" file. Do the same for all SMS's.
+Open the "*.xry" file in XACT(www.msab.com). Open "Volumes-->Volume-->NVRAM-->NVD_DATA-->MPA3_001". Here you find all SMS's stored on the phone. Right click a SMS, choose "View-->Service Center-->Linked Data", copy the Hexadecimal data to a new line in "ServiceNumbers.txt" file. Do the same for all SMS's. Alternatively the program could be rewritten to read service numbers as clear text, then encode it before searching. List of Servicenumbers may be found by searching for "SMSC list" on Google. 
 
 - PhoneNumbers.txt -
 Open the "*.xry" file in XACT(www.msab.com). Open "Volumes-->Volume-->NVRAM-->NVD_DATA-->MPA3_001". Here you find all SMS's stored on the phone. press the (+) next to an outgoing SMS. Right click the phone number and choose "View-->Tel-->Linked Data", copy the Hexadecimal data to a new line in "PhoneNumbers.txt" file. Do the same for all outgoing SMS's.
